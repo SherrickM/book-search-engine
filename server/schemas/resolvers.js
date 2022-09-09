@@ -1,4 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
+const { saveBook } = require('../../client/src/utils/API');
 const { User } = require('../models');
 const { signToken } = require('../utils/auth');
 
@@ -35,7 +36,11 @@ const resolvers = {
 
       const token = signToken(user);
       return { token, user };
-    }
+    },
+    
+    removeBook: async (parent, { bookID }) => {
+      return Book.findOneAndDelete({ _id: bookID });
+    },
   },
 };
 
