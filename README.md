@@ -23,10 +23,18 @@ THEN I am presented with several search results, each featuring a book’s title
 - WHEN I click on the Remove button on a book THEN that book is deleted from my saved books list
 - WHEN I click on the Logout button THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 
-## 
+## Mock-up
 
 ![Mockup](./client/src/assests/21-mern-homework-demo-01.gif)
 
 ![Mockup2](./client/src/assests/21-mern-homework-demo-02.gif)
 
 ![Mockup3](./client/src/assests/21-mern-homework-demo-03.gif)
+
+## Deployed Application
+
+> https://arcane-stream-83167.herokuapp.com/
+
+## Github Repo
+
+> https://github.com/SherrickM/book-search-engine
