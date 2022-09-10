@@ -1,5 +1,12 @@
 # book-search-engine
 
+## User Story
+
+> AS AN avid reader I WANT to search for new books to read SO THAT I can keep a list of books to purchase
+
+
+## Acceptance Criteria 
+
 ### Back-End Specifications
 
 You’ll need to complete the following tasks in each of these back-end files:
